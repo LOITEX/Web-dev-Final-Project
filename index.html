@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="script.java">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header class="header">
+                <div class="logo">
+                    <i class="fa-solid fa-a"></i>
+                    <div class="logo-text">Portfolio</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>    
+                    <ul class="navlinks">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Project">Project</a></li>
+                        <li><a href="#Skills3">Skills</a></li>
+                        <li><a href="#Contact4">Contact</a></li>
+                    </ul>
+                </nav> 
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="Image/Profile.jpg" alt="profile pic">
+                </div>
+                <div class="hero-text">
+                    <h5>Hi I'm <span class="input">Khen Endrian</span></h5>
+                    <h1>Web Developer</h1>
+                    <p>
+                        Hi, my name is Khen Endrian, and I'm a passionate web developer with a strong 
+                        foundation in building dynamic, user-centric websites and web applications. With expertise in
+                        HTML, CSS, Canva, & Capcut.
+                    </p>
+                    <div class="btn-group">
+                        <a href="#" class="btn">Download</a>
+                        <a href="#" class="btn">Contact</a>
+                    </div>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-Instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-dribble"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+    <script>
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input",{
+            strings:["Web Developer","Designer", "Web-Development"],
+            typedSpeed:70,
+            backSpeed:55,
+            loop:true
+        })
+                 </script>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Project">
+        <p class="section_text_p1">My Project</p>
+        <h1 class="tittle">Project</h1>
+    <div class="project2">
+        <div class="project-container">
+            <div class="project-item">
+                <div class="article-container">
+                    <img src="Image/prod.jpg" alt="Project 1" class="Prod-img" />
+                </div>
+                <h2 class="experience-sub-tittle project-tittle">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="article-container">
+                    <img src="Image/prod2.jpg" alt="Project 2" class="Prod-img" />
+                </div>
+                <h2 class="experience-sub-tittle project-tittle">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="article-container">
+                    <img src="Image/elara.jpg" alt="Project 3" class="Prod-img" />
+                </div>
+                <h2 class="experience-sub-tittle project-tittle">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>    
+    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.java"></script>
+<section id="Skills3">    
+    <div class="skills">
+        <h1>My Skills</h1>
+        <li><h3>html</h3>
+            <span class="bar"><span class="html"></span></span>
+        </li>
+        <li><h3>CSS</h3>
+            <span class="bar"><span class="CSS"></span></span>
+        </li>
+        <li><h3>Canva</h3>
+            <span class="bar"><span class="Canva"></span></span>
+        </li>
+        <li><h3>Capcut</h3>
+            <span class="bar"><span class="Capcut"></span></span>
+        </li>
+    </div>
+</section>
+<section id="Contact4">
+    <!--start-->
+    <!---div class="alert-success">
+        <span>Message Sent! Thank you for Responding.</span>
+    </div>
+    <div class="alert-error">
+        <span>Somthing went wrong! Please try again.</span>
+    </div>
+    <--end-->
+    <div class="contact-section">
+        <div class="contact-info">
+            <div><i class="fa-solid fa-location-dot"></i>Address, City, County</div>
+            <div><i class="fa-solid fa-envelope"></i>Rey.khendrian@marsu.edu.ph</div>
+            <div><i class="fa-solid fa-phone"></i>+63 951 5228 206</div>
+            <div><i class="fa-solid fa-clock"></i>Mon-Sun 24/7</div>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Me!</h2>
+            <form class="contact" action="" method="post">
+                <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <input type="submit" class="send-btn" value="send">
+            </form>
+        </div>
+    </div>
+</section>
+<section id="footer">
+    <div class="footerContainer">
+        <div class="socialIcon">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Project</a></li>
+                <li><a href="">Contact Me!</a></li>
+                <li><a href="">Skills</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2024 Designed by:<span class="designer">Khen Endrian Rey</span></p>
+    </div>
+</section>   
+</body>
+</html>
